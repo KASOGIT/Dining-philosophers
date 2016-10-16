@@ -5,11 +5,11 @@ Program built on Dining philosophers Problem that use threads to represent philo
 ## Installation && Tools
 
 Run 'make' on linux system.</br>
-And enable stat reccording lib: export LD_PRELOAD=./lib/libriceferee.so && export LD_LIBRARY_PATH=./lib/</br>
+And enable stat reccording lib: `export LD_PRELOAD=./lib/libriceferee.so && export LD_LIBRARY_PATH=./lib/`</br>
 
 ## Usage
 
-./philo -p <number philo> -e <max eat for a philo>
+./philo -p [NB_PHILO] -e [MAX_EAT]
 
 ## Contributing
 
